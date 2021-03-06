@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<style>
+    div.dkhv {
+        color: blue;
+        background-color: aquamarine;
+        width: 400px;
+        height: 30px;
+    }
+    div.bang {
+        background-color: lightgoldenrodyellow;
+        width: 400px;
+        height: 300px;
+    }
+</style>
+<body>
+<div class="bang">
+    <form action="formhocsinh.html">
+<div class="dkhv">
+<table>
+    <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+</table>
+</div>
+        <form action="formhocsinh.html">
+<table>
+    <tr>
+        <td>
+            <label>Học và tên</label> </br>
+        </td>
+            </br>
+        <td>
+            <input name="hovaten"type="text"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Ngày sinh</label>
+        </td>
+        <td>
+            <input name="ngaysinh"type="text"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Giới tính</label>
+        </td>
+        <td>
+            <input name="nam"type="checkbox"/> Nam
+            <input name="nu" type="checkbox"/> Nữ
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Địa chỉ</label>
+        </td>
+        <td>
+            <textarea></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Lớp</label>
+        </td>
+        <td>
+            <select name="lop">
+                <option value="">--Chọn lớp--</option>
+                <option value="a1">12A1</option>
+                <option value="a2">12A2</option>
+                <option value="a3">12A3</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Email</label>
+        </td>
+        <td>
+            <input name="email"type="text"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Điện thoại</label>
+        </td>
+        <td>
+            <input name="sdt"type="number"/>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input type="submit"value="Đăng ký">
+            <input type="reset"value="Nhập lại">
+        </td>
+    </tr>
+</table>
+    </form>
+</div>
+</body>
+</html>
